@@ -1,0 +1,39 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+- id  PRIMARY_KEY(UNIQUE, NOTNULL) AUTO_INCREMENT INDEX
+
+- brand NOTNULL VARCHAR(50)
+
+- model NOTNULL VARCHAR(70)
+
+- Km NOTNULL UNSIGNED MEDIUMINT
+
+- color NULL VARCHAR(60) DEFAULT(NOT AVAIBLE)
+
+- engine-type  NOTNULL VARCHAR(15)
+
+- engine-model NULL VARCHAR(80) DEFAULT(NOT AVAIBLE)
+
+- type-of-drive  NOTNULL VARCHAR(30)
+
+- description NOTNULL VARCHAR(255)
+
+- car-img  NULL VARCHAR(255) DEFAULT(/default-car-image-path)
+
+- contry_of_origin NOTNULL VARCHAR(70)
+
+- year_of_production  NOTNULL YEAR
+
+- sell_date NOTNULL DATE
+
+- original-price NULL  UNSIGNED MEDIUMINT DEFAULT(NOT AVAIBLE)
+
+- current-price NOTNULL UNSIGNED MEDIUMINT
+
+- retail-price NOTNULL UNSIGNED MEDIUMINT
+
+- how_many_owner  NULL TYNYINT
+
+- chassis_number NOTNULL VARCHAR(17)
+
+--
